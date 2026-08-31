@@ -102,7 +102,7 @@ Esse ciclo deverá ser feito obrigatoriamente por meio de ferramentas de CI/CD u
 
 ```mermaid
 graph LR
-    A[💻 Antigravity<br/>Ambiente de Desenvolvimento - Computador do Aluno] -->|Commit & Push| B(📦 GitHub<br/>Repositório de Código)
+    A[💻 Antigravity<br/>Ambiente de Desenvolvimento<br/>Computador do Aluno] -->|Commit & Push| B(📦 GitHub<br/>Repositório de Código)
     B -->|Gatilho Automático| C{⚙️ GitHub Actions<br/>Pipeline CI/CD}
     C -->|Deploy Seguro| D[☁️ Ambiente de Produção<br/> Nginx/Apache em Nuvem]
     
