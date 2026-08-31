@@ -36,7 +36,7 @@ A aplicação desenvolvida deverá ser hospedada em um ambiente de nuvem públic
 * **Servidor Web:** O uso de Nginx ou Apache como Web Server será obrigatório.
 * **Disponibilidade:** A aplicação web deverá estar acessível publicamente via internet por meio de um IP público (não será exigido domínio).
 
-### 🛡️ Requisitos de Segurança (Critério de Aprovação - **Metas mínimas obrigatórias a serem alcançadas**)
+### 🛡️ Requisitos de Segurança (Critério de Aprovação - <u>**Metas mínimas obrigatórias a serem alcançadas**</u>)
 
 * **Acesso Remoto Seguro:** O acesso administrativo ao servidor/VM/instância deverá ser feito obrigatoriamente por meio de **chaves SSH**, devendo ser desabilitada a autenticação por senha padrão.
 * **Firewall / Security Groups (Least Privilege):** A infraestrutura deverá expor **apenas** as portas estritamente necessárias para o funcionamento da aplicação (ex: 80 para HTTP ou 443 para HTTPS). A porta de gerência 22 do SSH deverá estar sob a proteção de Fail2Ban com tolerância de 4 erros e banimento por 24 horas.
@@ -59,7 +59,7 @@ O controle de versão é o coração do ciclo de desenvolvimento seguro. O aluno
 * **Responsabilidade e Operação:** A criação da conta no GitHub e sua configuração segura ficarão inteiramente a cargo do aluno. Essas etapas farão parte da avaliação, exigindo que o aluno aplique práticas de segurança na própria plataforma, como a configuração de chaves SSH ou *Personal Access Tokens* (PAT) para as operações de *commit* e *push*, além da recomendação de ativar a Autenticação em Duas Etapas (2FA) em sua conta.
 * **Organização Básica:** O repositório deverá conter todos os artefatos do Eixo 3 e um arquivo `README.md` detalhado (que servirá como relatório técnico da entrega).
 
-### 🛡️ Requisitos de Segurança (Critério de Aprovação - **Metas mínimas obrigatórias a serem alcançadas**)
+### 🛡️ Requisitos de Segurança (Critério de Aprovação - <u>**Metas mínimas obrigatórias a serem alcançadas**</u>)
 
 * **Prevenção de Vazamento de Dados (Obrigatório):** O repositório deverá fazer o uso correto do arquivo `.gitignore`. Será proibido o *commit* de arquivos `.env`, chaves privadas de SSH, credenciais de acesso à Cloud, senhas hardcoded ou bancos de dados locais.
 * O vazamento de credenciais reais no repositório acarretará penalidade imediata na avaliação, refletindo as consequências severas dessa prática no mercado.
@@ -82,7 +82,7 @@ O foco deste eixo é a aplicação prática de *Secure by Design*, sem a sobreca
 
 
 
-### 🛡️ Requisitos de Segurança (Critério de Aprovação - **Metas mínimas obrigatórias a serem alcançadas**)
+### 🛡️ Requisitos de Segurança (Critério de Aprovação - <u>**Metas mínimas obrigatórias a serem alcançadas**</u>)
 
 O código-fonte entregue deverá mitigar ativamente, no mínimo, **3 (três) vulnerabilidades** listadas no documento oficial da [OWASP Top 10:2025](https://owasp.org/Top10/2025/).
 
@@ -98,7 +98,7 @@ Para refletir a realidade do mercado de tecnologia, o fluxo de implantação da 
 
 A aplicação deverá sair do **Antigravity** (ambiente de desenvolvimento), ir para o **GitHub** (repositório) e, por fim, ser repassada de forma automatizada ao **Ambiente de Nuvem** escolhido, onde o sistema operacional e o servidor Web estarão prontos para servir a página (ambiente de produção).
 
-Esse ciclo deverá ser feito obrigatoriamente por meio de ferramentas de CI/CD utilizando o recurso **Actions** no GitHub.
+Esse ciclo deverá ser feito obrigatoriamente por meio de ferramentas de CI/CD utilizando o recurso <u>**Actions**</u> no GitHub.
 
 ```mermaid
 graph LR
