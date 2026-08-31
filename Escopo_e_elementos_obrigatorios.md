@@ -90,11 +90,11 @@ O código-fonte entregue deverá mitigar ativamente, no mínimo, **3 (três) vul
 
 ---
 
-### 🔄 Integração e Entrega Contínuas (CI/CD)
+## 🔄 Eixos 1, 2 e 3: Integração e Entrega Contínuas (CI/CD)
 
 Para refletir a realidade do mercado de tecnologia, o fluxo de implantação da aplicação deverá ser integrado e automatizado.
 
-#### 🛠️ Fluxo Ilustrativo de Implantação
+### 🛠️ Fluxo Ilustrativo de Implantação
 
 A aplicação deverá sair do **Antigravity** (ambiente de desenvolvimento), ir para o **GitHub** (repositório) e, por fim, ser repassada de forma automatizada ao **Ambiente de Nuvem** escolhido, onde o sistema operacional e o servidor Web estarão prontos para servir a página (ambiente de produção).
 
@@ -114,11 +114,11 @@ graph LR
 
 ```
 
-#### 🛡️ Responsabilidade e Operação
+### 🛡️ Responsabilidade e Operação
 
 A criação, configuração e validação da pipeline no GitHub Actions ficarão inteiramente a cargo do aluno. Esta etapa envolverá a elaboração do arquivo de configuração (*workflow* em formato `.yml`) e o gerenciamento seguro das credenciais necessárias para a comunicação entre o GitHub e a Nuvem. O aluno deverá garantir o uso do recurso de *Secrets* do GitHub para armazenar chaves de acesso (como chaves SSH do servidor), garantindo que nenhuma credencial fique exposta no código da pipeline.
 
-#### 🛡️ Requisitos de Segurança (Critério de Aprovação - *Metas mínimas obrigatórias a serem alcançadas*)
+### 🛡️ Requisitos de Segurança (Critério de Aprovação - *Metas mínimas obrigatórias a serem alcançadas*)
 
 * Pipeline no GitHub Actions automatizando, enviando o código para produção assim que o comando "git push origin main" for executado no ambiente de desenvolvimento (computador do aluno).
 
