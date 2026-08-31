@@ -15,9 +15,10 @@ graph TD
     A[💻 Eixo 3: Desenvolvimento<br/>App Web Segura] -->|Commit & Push| B(📦 Eixo 2: Repositório<br/>Controle de Versão Seguro)
     B -->|Implantação via CI/CD| C{☁️ Eixo 1: Infraestrutura<br/>Cloud Computing - Free Tier}
     
-    style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px
-    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
-    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px,color:#000000
+    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px,color:#000000
+    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,color:#000000
+    linkStyle default color:#000000
 
 ```
 
@@ -105,10 +106,11 @@ graph LR
     B -->|Gatilho Automático| C{⚙️ GitHub Actions<br/>Pipeline CI/CD}
     C -->|Deploy Seguro| D[☁️ Ambiente de Nuvem<br/>Produção - Nginx/Apache]
     
-    style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px
-    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
-    style C fill:#fff3e0,stroke:#ff9800,stroke-width:2px
-    style D fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px,color:#000000
+    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px,color:#000000
+    style C fill:#fff3e0,stroke:#ff9800,stroke-width:2px,color:#000000
+    style D fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,color:#000000
+    linkStyle default color:#000000
 
 ```
 
