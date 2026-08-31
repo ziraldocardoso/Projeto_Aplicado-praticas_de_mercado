@@ -1,4 +1,4 @@
-# 🎯 Escopo e Elementos Obrigatórios
+# 🎯 Escopo e Elementos Obrigatórios - *versão 1.0*
 
 ![Status](https://img.shields.io/badge/Status-Ativo-success)
 ![Disciplina](https://img.shields.io/badge/Disciplina-Projeto_Aplicado-blue)
