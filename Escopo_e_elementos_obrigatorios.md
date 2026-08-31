@@ -12,7 +12,7 @@ O objetivo é simular um ambiente de mercado real, aplicando os conceitos de *Se
 
 ```mermaid
 graph TD
-    A[💻 Eixo 3: Desenvolvimento<br/>App Web Segura] -->|Commit & Push| B(📦 Eixo 2: Repositório<br/>Controle de Versão Seguro)
+    A[💻 Eixo 3: Desenvolvimento<br/>App Web] -->|Commit & Push| B(📦 Eixo 2: Repositório<br/>Controle de Versão Seguro)
     B -->|Implantação via CI/CD| C{☁️ Eixo 1: Infraestrutura<br/>Cloud Computing - Free Tier}
     
     style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px,color:#000000
@@ -102,9 +102,9 @@ Esse ciclo deverá ser feito obrigatoriamente por meio de ferramentas de CI/CD u
 
 ```mermaid
 graph LR
-    A[💻 Antigravity<br/>Ambiente de Desenvolvimento] -->|Commit & Push| B(📦 GitHub<br/>Repositório de Código)
+    A[💻 Antigravity<br/>Ambiente de Desenvolvimento - Computador do Aluno] -->|Commit & Push| B(📦 GitHub<br/>Repositório de Código)
     B -->|Gatilho Automático| C{⚙️ GitHub Actions<br/>Pipeline CI/CD}
-    C -->|Deploy Seguro| D[☁️ Ambiente de Nuvem<br/>Produção - Nginx/Apache]
+    C -->|Deploy Seguro| D[☁️ Ambiente de Produção<br/>(Nginx/Apache) - Nuvem]
     
     style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px,color:#000000
     style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px,color:#000000
